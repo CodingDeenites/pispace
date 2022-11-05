@@ -1,11 +1,13 @@
-import { Center, Heading } from "@chakra-ui/react";
+import { Routes, Route, Link } from "react-router-dom";
 
+//pages 
+import Home from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <Heading>
-        <Center pt="5">PiSpace</Center>
-      </Heading>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
     </div>
   );
 }
