@@ -1,4 +1,4 @@
-import { Button, Text } from "@chakra-ui/react";
+import { Button, Text, Center, Spinner } from "@chakra-ui/react";
 import React from "react";
 import { auth } from "../../firebase.config";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
@@ -8,9 +8,17 @@ export default function Login() {
   const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
   let navigate = useNavigate();
 
+  if (loading) {
+    return (
+      <Center>
+        <Spinner />
+      </Center>
+    );
+  }
+
   return (
     <div>
-      {user ? (
+      {!user ? (
         <Button
           colorScheme="twitter"
           onClick={() => {
