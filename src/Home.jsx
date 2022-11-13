@@ -41,6 +41,7 @@ const Home = () => {
         <Center pt="5">
           {/* navbar: */}
           <Navbar></Navbar>
+          {/* homepage: */}
           <HomePage></HomePage>
         </Center>
       )}
