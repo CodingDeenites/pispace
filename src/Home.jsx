@@ -23,10 +23,6 @@ const Home = () => {
 
   return (
     <div>
-      <Heading>
-        <Center>PiSpace</Center>
-      </Heading>
-
       {user ? (
         <Center pt="5">
           <Text>
