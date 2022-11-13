@@ -40,9 +40,9 @@ const Home = () => {
       ) : (
         <Center pt="5">
           {/* navbar: */}
-          <Navbar></Navbar>
+          <Navbar />
           {/* homepage: */}
-          <HomePage></HomePage>
+          <HomePage />
         </Center>
       )}
     </div>
