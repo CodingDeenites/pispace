@@ -3,8 +3,8 @@ import { Box, Button, Center, Heading, Link, Spinner, Text } from "@chakra-ui/re
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase.config";
 import { signOut } from "firebase/auth";
-import { HomePage } from "./components/HomePage"
-import { Navbar } from "./components/Navbar"
+import HomePage from "./components/HomePage"
+import Navbar from "./components/Navbar"
 
 const Home = () => {
   const [user, loading, error] = useAuthState(auth);
