@@ -1,11 +1,12 @@
 import React from 'react';
+import '../main.css'
+import { Box } from '@chakra-ui/react'
 
-const Navbar = () => {
+export const Navbar = () => {
     return (
-        <div>
-            
+        <div className='Navbar'>
+          
         </div>
     );
 };
 
-export default Navbar;
