@@ -11,6 +11,11 @@ export const Navbar = () => {
     return (
         <div className='Navbar'>
                 <Image src='https://cdn.discordapp.com/attachments/1038360446383693904/1038361636211273728/pi_space_png.png' alt='Dan Abramov' className='navimg' />
+                <Box alignItems='right'>
+                    <Button >
+                    <a href='/login' align='right'>Login</a>
+                    </Button>
+                </Box>
         </div>
     );
 };
