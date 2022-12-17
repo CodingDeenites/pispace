@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 .homebg{
     background-image: url("https://i.ibb.co/CMrFL8f/HomeBg.png");
     background-size: cover;
@@ -21,4 +22,7 @@
     height: 80%;
     margin-left: 20px;
     margin-top: 1vh;
+}
+.font{
+    font-family: 'Julius Sans One', sans-serif;
 }
