@@ -22,7 +22,7 @@ export default function Login() {
         <Button
           colorScheme="twitter"
           onClick={() => {
-            signInWithGoogle();
+            signInWithGoogle(); 
             navigate("/");
           }}
         >
