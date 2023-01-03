@@ -14,7 +14,7 @@ export const Navbar = ({ title, desc, ...rest }) => {
                 <Box p='2'>
                     <HStack>
                     
-                    <Image src='https://cdn.discordapp.com/attachments/1038360446383693904/1059726188756598844/Untitled_design3.png' alt='logo' className='navimg' sizes='lx'  margin-left= '20px' margin-top='1vh' />    
+                    <Image src='https://cdn.discordapp.com/attachments/1038360446383693904/1059726965759803423/Untitled_design5.png' alt='logo' className='navimg' sizes='lx'  margin-left= '20px' margin-top='1vh' />    
                     <Text className='navtext'  color='white'fontSize='5xl' fontFamily= 'Julius Sans One' >PiSpace</Text>
                     </HStack>
                     {/* <Text fontSize='5xl' className='font' fontFamily= 'Julius Sans One'    >PiSpace</Text> */}
