@@ -51,6 +51,7 @@ const Home = () => {
         // </Center>
         <Center>
           <Navbar/>
+        <br/>
           <Homepage/>
         </Center>
       )}
