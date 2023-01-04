@@ -25,9 +25,11 @@ export const HomeRoute = () => {
           src="https://cdn.discordapp.com/attachments/1038360446383693904/1057238995182034974/image.png"
           pt="6%"
         />
+        <br/>
 
         <Box>
           <Text className="heading">PiSpace</Text>
+          <br/>
           <Text fontSize="4xl" as="b" className="poppins">
             Need some help? Or want to share your work?
             <br />
@@ -37,7 +39,7 @@ export const HomeRoute = () => {
           </Text>
           <br />
         </Box>
-
+        <br/>
         <Button
           size="lg"
           onClick={() => {
