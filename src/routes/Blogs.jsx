@@ -6,6 +6,7 @@ import { createBlog } from "../controllers/blogs";
 import { startMongoDB } from "../App";
 
 state = {showBlogForm: false}
+const [user, loading, error] = useAuthState(auth);
 
 showBlogForm = (e) => {
     const [title, setTitle] = useState("");
@@ -19,7 +20,7 @@ showBlogForm = (e) => {
                 {
                     title: title,
                     content: content,
-                    author: "test"
+                    author: user.uid
                 }
             );
             if (res == false) {
@@ -63,7 +64,6 @@ showBlogForm = (e) => {
 
 export default function Blog() {
     startMongoDB();
-    const [user, loading, error] = useAuthState(auth);
     if (loading) {
         return (
           <Box bg="#CBE7F3" h="calc(100vh)">
