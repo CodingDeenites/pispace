@@ -32,4 +32,4 @@ export const Homepage = () => {
             </center>
         </div>
     );
-};      
+};
