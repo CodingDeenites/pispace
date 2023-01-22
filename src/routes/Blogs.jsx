@@ -1,7 +1,7 @@
 import { Button, Box } from "@chakra-ui/react";
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { auth } from "../firebase.config";
+import { auth } from "../../firebase.config";
 import { createBlog } from "../controllers/blogs";
 import { startMongoDB } from "../App";
 

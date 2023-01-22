@@ -1,4 +1,4 @@
-const Blog = require('../../models/Blog')
+const Blog = require("../../models/Blog");
 
 
 const getAllBlogs = async () => {
@@ -47,6 +47,6 @@ const deleteBlog = async (blogID) => {
     }
 }
 
-module.exports = {
+export {
     createBlog, deleteBlog, getAllBlogs, getBlog, 
 }
