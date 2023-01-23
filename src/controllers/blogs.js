@@ -1,4 +1,5 @@
-const Blog = require("../../models/Blog");
+import { BlogModel } from '../../models/Blog';
+const Blog = BlogModel;
 
 
 const getAllBlogs = async () => {
