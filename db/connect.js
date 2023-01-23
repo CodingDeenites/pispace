@@ -1,9 +1,6 @@
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 
-
-const connectDB = (url) => {
-    console.log('%c Connected to database...', 'color: blue; font-weight: bold;');
-    return mongoose.connect(url)
-}
-
-export { connectDB };
+export const connectDB = (url) => {
+  console.log("Connected to database...");
+  return mongoose.connect(url);
+};

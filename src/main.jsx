@@ -1,15 +1,14 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {App, startMongoDB} from "./App";
+import { App } from "./App";
 import { BrowserRouter } from "react-router-dom";
 
-await startMongoDB();
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider>
       <BrowserRouter>
-      <App />
+        <App />
       </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>
